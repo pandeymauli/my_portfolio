@@ -1,0 +1,175 @@
+<!doctype html>
+
+<html lang="en">
+<html>
+
+<head>
+<meta id="view" name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<title>Mauli Pandey</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400|Lora|Montserrat:300" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-1"></div>
+      <div class="col-xs-5 menu-home">
+        <a href="index.html">ABOUT</a>
+      </div>
+      <div class="col-xs-5 menu-text menu-projects text-right">
+        <a href="index.html#projects" class="active">PROJECTS</a>
+      </div>
+      <div class="col-xs-1"></div>
+    </div>
+</nav>
+
+<!-- HEADER IMAGE -->
+<!-- <div class="header clearfix" style="background-image: url('flat.png');">
+    <h1>Example headline</h1>
+    <h2>Example headline Example headline Example headline</h2>
+</div> -->
+
+<div class="header clearfix">
+  <div class="title">
+    <h1>Āyāma</h1>
+    <h2>VR Learning Platform for Introductory Architectural Graphics Course</h2>
+  </div>
+    <img src="flat.png"></img>
+</div>
+
+<div class="container">
+
+  <div class="row project-bites">
+    <div class="col-md-2 col-lg-2"></div>
+    <div class="col xs-12 col-sm-4 col-md-4 col-lg-4">
+      <h4><b>PROJECT DETAILS</b></h4>
+      <p><b>Client :</b> Centre for Educational Technology, IIT Guwahati</p>
+      <p><b>Timeline :</b> 8 months</p>
+      <p><b>Team : </b> 2 UX Designers/Researchers</p>
+    </div>
+    <div class="col xs-12 col-sm-4 col-md-2 col-lg-2">
+      <h4><b>CONTRIBUTION</b></h4>
+      <p>
+        User Research</br>
+        Secondary Research</br>
+        Interface Design</br>
+        Development</br>
+        Usability Testing</br>
+        Experiment</br>
+      </p>
+    </div>
+    <div class="col xs-12 col-sm-4 col-md-3 col-lg-3">
+      <h4><b>TOOLS USED</b></h4>
+      <p>
+        Pen and Paper</br>
+        Affinity Wall</br>
+        Vizard Toolkit</br>
+    </div>
+    <div class="col-md-2 col-lg-2"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-2 col-md-2 col-lg-2"></div>
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" style="border-top: 1px solid #ddd;">
+      <h3><b>1. OVERVIEW</b></h3>
+      <p>Freshman year students in architecture programs have to study the
+        fundamental course of “engineering drawing” or “architectural graphics”.
+        The goal of the course is to enhance students’ spatial thinking.
+        However, most students find the learning curve to be steep,
+        since they are primarily used to 2D mental visualizations.
+      </p>
+      </br>
+      <h3><b>2. SOLUTION</b></h3>
+      <p>Āyāma, meaning 'dimension' in Sanskrit, is an immersive VR platform that aids
+        the aforementioned course of “engineering drawing”.
+        It scaffolds students’ learning as they are introduced to topics of
+        visualization of objects and its projections in 3D space.
+        Students can freely manipulate objects’ orientation in 3D space,
+        and watch changes in projections in real time</p>
+      </br>
+      <h3><b>3. PROCESS</b></h3>
+      <h3>3.1 CONTEXTUAL INQUIRY</h3>
+      <p>We used contextual inquiry as our primary research method.
+        Our core users were first year undergraduate architecture students.
+        We observed classes and discussion sessions in progress.
+        This helped us capture the experiences and struggles of students with the course.
+        We also conducted qualitative interviews with instructors and tutors.
+        In parallel, we conducted literature review on learning and cognition models.
+        We analyzed the collected qualitative data by means of an affinity wall.
+      </p>
+      <img src="image/aayama/contextual-inquiry.png">
+      </br>
+      </br>
+      <h3>3.2 INSIGHTS</h3>
+      <p>Our key insight was that students’ initiation into architectural graphics is not smooth.In the context of Indian students, up until high school none of the courses requires spatial thinking. Come first semester of college, and students are expected to visualize and orient objects mentally without any prior experience. Thus, a platform which can support their transition into 3D thinking would scaffold their learning, and make the course fundamentals easier to grasp.
+      </p>
+      <h3>3.3 RECOMMENDED SOLUTION</h3>
+      <p style="margin-bottom: 0px;">Our insights translated into the following features for the proposed solution : </p>
+      <ul>
+        <li>Aid in 3D visualization without losing the established rules of the course.</li>
+        <li>Link to coordinate geometry since students are comfortable with "math of 3D space".</li>
+        <li>Enable students to "learn by doing" for best learning.</li>
+        <li>Decrease the conceptual distance between theory and projections.</li>
+      </ul>
+      <p>
+        The literature review had identified different tools used to design for
+        architecture education. Among the various tools and technologies, we found immersive VR
+        to be best suited for our solution. It allowed users to perceive
+        and interact with objects in manners similar to the real world. We therefore decided
+        to go forwared with immersive VR, and started thinking about concepts and solutions anchored in the medium.
+        We prototyped our final solution using Vizard, a Python VR toolkit.
+      </p>
+      </br>
+      <h3><b>4. PROTOTYPE & PILOT TESTING</b></h3>
+      <p>We simulated 3D objects students commonly encounter in the course -
+        pyramids, cubes, etc. Projections of the simulations are mapped on vertical,
+        horizontal and profile planes. The simulations could be manipulated freely
+        along the three axes of rotations. Changes to the simulations and their
+        projections were updated simultaneously. The conventions of the course were
+        followed in the prototype. We pilot tested the prototype to improve the usability.
+      </p>
+        <img src="image/aayama/prototype.jpg" style="width:100%; height: auto;">
+        </br>
+        </br>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xVvFYJj7d_o" allowfullscreen></iframe>
+        </div>
+      </br>
+      <h3>5. CONTROLLED EXPERIMENT</h3>
+      <p>
+        Next, a controlled experiment was conducted to gauge its effectiveness as a
+        learning tool. Results were significant and in favor. We also used technology
+        acceptance model or TAM to model attitudes of users towards using the technology.
+        It showed high inclination towards using the tool.
+      </p>
+      <img src="image/aayama/experiment-results.jpg" style="width:100%; height: auto;">
+      </br>
+      <h3>6. FURTHER INFORMATION</h3>
+      <ul>
+        <li><a href="https://www.designsociety.org/download-publication/36136/role_of_immersive_virtual_reality_in_fostering_creativity_among_architecture_students">Pandey, M., Luthra, V., Yammiyawar, P. G., & Yammiyawar, P. (2014). Role of immersive VR in fostering creativity among architecture students. In 3rd International Conference of Design Creativity.</a></li>
+        <li><a href="http://link.springer.com/chapter/10.1007/978-3-319-07857-1_110">Pandey, M., Luthra, V., Yammiyawar, P. G., & Yammiyawar, A. P. (2014). Virtual Reality Based Learning Aid to Understand Projection and Section of Solids in Architectural Graphics. In HCI International 2014-Posters’ Extended Abstracts (pp. 625-630). Springer International Publishing.</a></li>
+      <ul>
+      </br>
+      </br>
+    </div>
+    <div class="col-md-2 col-lg-2"></div>
+  </div>
+
+</div> <!-- CONTAINER -->
+
+<div id="footer"></div>
+
+</body>
+</html>

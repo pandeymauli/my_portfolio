@@ -1,0 +1,131 @@
+body{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+.navbar{
+  background-color: #fff;
+}
+
+/*.header{
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(53,42,132);
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}*/
+
+.navbar .container{
+  margin-top: 20px;
+  font-size: 1.8em;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+}
+
+.header{
+  width: 100%;
+  height: 400px;
+  z-index: -5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+  background-color: #333;
+}
+
+h1{
+  font-family: 'Lora', serif;
+  font-size: 3.2em;
+  line-height: 28px;
+}
+
+h2{
+  font-size: 2.4em;
+  font-family: 'Lora', serif;
+  line-height: 28px;
+}
+
+h3{
+  font-size: 1.8em;
+  font-family: 'Lora', serif;
+  line-height: 28px;
+}
+
+h4{
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 28px;
+}
+
+h5{
+  font-size: 1.2em;
+  font-family: 'Lora', serif;
+  color: #FF0000;
+  text-align: center;
+}
+
+p, li{
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 28px;
+}
+
+.title{
+  background-color: #333;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.title h1,h2{
+  text-align: center;
+  z-index: -1;
+}
+
+.header img{
+  position: absolute;
+  width: inherit;
+  height: auto;
+  z-index: -3;
+}
+
+.project-bites{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.project-bites p{
+  font-weight: 300;
+}
+
+.within-body{
+  margin-left: -3.2%;
+}
+
+.project-page h2{
+  text-align: left;
+  font-weight: 300;
+  font-size: 2.0em;
+}
+
+.project-page h2:hover, .project-page a:hover, .projects-title:hover{
+  text-decoration: none;
+}
+
+.projects-title{
+  color: #000;
+}
+
+.projects-title:hover{
+  color: #000;
+}
+
+.project{
+  margin-bottom: 50px;
+}
