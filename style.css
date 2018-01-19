@@ -173,6 +173,22 @@ p, li{
 .project{
   margin-bottom: 50px;
 }
+
+.project-heading{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  line-height: normal;
+}
+
+.project-desc{
+  width: 90%;
+  height: auto;
+  margin-left:5%;
+  text-align: center;
+  line-height: normal;
+}
+
 .iframe-container {
     position: relative;
     width: 100%;
@@ -185,7 +201,7 @@ p, li{
     left: 0;
     width: 100%;
     height: 100%;
-    zoom: 0.5; 
+    zoom: 0.5;
     /* -ms-zoom: 0.75;
    -moz-transform: scale(0.75);
    -moz-transform-origin: 0 0;
