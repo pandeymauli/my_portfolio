@@ -217,12 +217,17 @@ p, li{
   color: #BF0436;
 }
 
+.publist{
+  padding-left: 0px;
+}
+
 .publist li, .publist p, .publist-li p{
   font-size: 1.5em;
   font-family: 'Montserrat', sans-serif;
   line-height: 28px;
   font-weight: 400;
 }
+
 .publist li{
   margin-bottom: 10px;
 }
