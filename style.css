@@ -87,7 +87,7 @@ h4 b, p b, h2 b{
 h1,h2,h3,h5{
   font-family: 'Julius Sans One', sans-serif;
 }
-h1{
+/* h1{
   font-size: 3.2em;
   line-height: auto;
 }
@@ -100,7 +100,21 @@ h2{
 h3{
   font-size: 1.8em;
   line-height: 28px;
+} */
+h1{
+  font-size: 1.8em;
+  line-height: auto;
 }
+
+h2{
+  font-size: 2.4em;
+  color: #BF0436;
+  font-weight: 600;
+}
+
+/* h2 b{
+  font-weight: 600;
+} */
 
 h4{
   font-size: 1.5em;
@@ -120,18 +134,18 @@ p{
 }
 
 p, li{
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-family: 'Montserrat', sans-serif;
   line-height: 28px;
   font-weight: 400;
 }
 
-.title h1,h2{
+/* .title h1,h2{
   text-align: center;
   z-index: 3;
   color: #fff;
   vertical-align: middle;
-}
+} */
 
 .header img{
   position: absolute;
@@ -151,12 +165,6 @@ p, li{
 
 .within-body{
   margin-left: -3.2%;
-}
-
-.project-page h2{
-  text-align: left;
-  font-weight: 300;
-  font-size: 2.0em;
 }
 
 .project-page h2:hover, .project-page a:hover, .projects-title:hover{
@@ -222,7 +230,7 @@ p, li{
 }
 
 .publist li, .publist p, .publist-li p{
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-family: 'Montserrat', sans-serif;
   line-height: 28px;
   font-weight: 400;
